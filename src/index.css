@@ -97,3 +97,14 @@ footer {
     height: 130%;
   }
 }
+/* Make zoom (+, –, target) and trash-can icons white */
+.blocklySvg .blocklyZoom image,
+.blocklySvg .blocklyTrash image          {
+  filter: brightness(0) invert(1);
+}
+
+.blocklySvg .blocklyZoom path,
+.blocklySvg .blocklyTrashcan path           {
+  fill: #fff ;
+  stroke: #fff ;
+}
